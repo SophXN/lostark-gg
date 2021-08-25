@@ -10,7 +10,9 @@ import { MenuItem } from '@material-ui/core'
 import { Menu as MenuIcon } from '@material-ui/icons'
 
 type AppProps = {
-  classes: object;
+  classes: {
+    [archetypeName: string]: string[];
+  }
 }
 
 const NavBar = (props: AppProps): JSX.Element => {
@@ -75,7 +77,7 @@ const NavBar = (props: AppProps): JSX.Element => {
             <p>Some news</p>
           </Route>
           <Route exact path="/class-select">
-            <ClassSelect />
+            <ClassSelect archetypes={props.classes} />
           </Route>
         </Switch>
       </Router>

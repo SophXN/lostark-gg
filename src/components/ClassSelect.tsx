@@ -1,16 +1,20 @@
-import React from 'react'
-import ArchetypeCard from './ArchetypeCard'
+import React from 'react';
+import ArchetypeCard from './ArchetypeCard';
 
 interface ArchetypeProps {
-  currentArchetype: string[];
+  archetypes: {
+    [archetypeName: string]: string[];
+  };
 }
 
-const ClassSelect = ({currentArchetype}: ArchetypeProps): JSX.Element => {
-  return(
+const ClassSelect = (props: ArchetypeProps): JSX.Element => {
+  return (
     <>
-      <ArchetypeCard archetype={currentArchetype} />
+      {Object.keys(props.archetypes).map((currentArchetype:string, index:number) => {
+        <ArchetypeCard archetype={props.archetypes[currentArchetype]} key={index} />
+      })}
     </>
-  )
-}
+  );
+};
 
-export default ClassSelect
+export default ClassSelect;

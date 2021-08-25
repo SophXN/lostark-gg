@@ -5,11 +5,7 @@ import ClassCard from './components/ClassCard'
 import './App.css'
 
 interface archetypes {
-  warrior: string[];
-  martialArtist: string[];
-  gunner: string[];
-  mage: string[];
-  assassin: string[];
+  [archetypeName: string]: string[];
 }
 
 type archetypesStatic = Readonly<archetypes>
