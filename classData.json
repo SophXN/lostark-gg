@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Warrior",
+    "advanced": [
+      {
+        "name": "Berserker",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/1hkpOajzY2iKIddBPSFrnL/19aa23ff1ea417c5f2a50bcb8cf22550/LA_ADVANCED_CLASS_INDEX_BERSERKER.jpg"
+      },
+      {
+        "name": "Paladin",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/71MyoO68adxHz8m3EOuKlK/9611d5a0de01341337ed16baa3a4965a/LA_ADVANCED_CLASS_INDEX_HOLY_KNIGHT.jpg"
+      },
+      {
+        "name": "Gunlancer",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/5Zz3tEyE7amDArNYxLVs2F/ccb6eb1923701d50ee8c39f6e864e6e7/LA_ADVANCED_CLASS_INDEX_WARLORD.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Martial Artist",
+    "advanced": [
+      {
+        "name": "Striker",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/4Lcn99G4ug7xQ4dyefe3on/7202b18da1f367bfe954d3e5841e9002/LA_ADVANCED_CLASS_INDEX_STRIKER.jpg"
+      },
+      {
+        "name": "Wardancer",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/j08QkCxJW6xlkmIKJ4Wvz/2ca0358c3466cda9933f6e16fca1daea/LA_ADVANCED_CLASS_INDEX_WARDANCER.jpg"
+      },
+      {
+        "name": "Scrapper",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/QPdqIk0B5sVgsV4rHVYLu/ceed8e1e07d5ec9cceb1ad1e77633e3c/LA_ADVANCED_CLASS_INDEX_SCRAPPER.jpg"
+      },
+      {
+        "name": "Soulfist",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/4SJ0UY6pmJSvqVITi84h2L/ffa425f70815d95c3f88815a8195f4c9/LA_ADVANCED_CLASS_INDEX_SOULFIST.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Gunner",
+    "advanced": [
+      {
+        "name": "Gunslinger",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/3KnPFsH0o1TRp3IkaHIU4D/48f7b6fdb6ae9af52f5545c239df3b65/LA_ADVANCED_CLASS_INDEX_GUNSLINGER.jpg"
+      },
+      {
+        "name": "Artillerist",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/1sQEjNqD5pd334zzpjoQ8x/f26509985360adbcb416f73c1ee9052d/LA_ADVANCED_CLASS_INDEX_ARTILLERIST.jpg"
+      },
+      {
+        "name": "Deadeye",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/6xNNAkPej3xfmYxp1otSfc/f5f3d6ddd029a566a6682aec96583b98/LA_ADVANCED_CLASS_INDEX_DEADEYE.jpg"
+      },
+      {
+        "name": "Sharpshooter",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/2AvY3YNjNhSCp58Edqnl27/801380f602fee888e8a253aebe82586e/LA_ADVANCED_CLASS_INDEX_SHARPSHOOTER.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Mage",
+    "advanced": [
+      {
+        "name": "Bard",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/2g0W7co1jA4lLyCrmmpdMY/a052cb53a134480378acb614df3a7d7a/LA_ADVANCED_CLASS_INDEX_BARD.jpg"
+      },
+      {
+        "name": "Summoner",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/2gStfA3XOc6KqXW00mm72w/0188453afa8ade466e5e0988f4bf744b/LA_ADVANCED_CLASS_INDEX_SUMMONER.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Assassin",
+    "advanced": [
+      {
+        "name": "Shadowhunter",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/MCTBeTAsNTLxAsOXIEqZF/7013f389efe8969ac189bb6ba603cd1e/LA_ADVANCED_CLASS_INDEX_SHADOWHUNTER.jpg"
+      },
+      {
+        "name": "Deathblade",
+        "art": "https://images.ctfassets.net/umhrp0op95v1/6KEvGvaogDCrxJAPeuxzju/752515e3dfa76a06f1f100c1e6dcdcba/LA_ADVANCED_CLASS_INDEX_DEATHBLADE.jpg"
+      }
+    ]
+  }
+]

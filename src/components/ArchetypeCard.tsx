@@ -1,20 +1,22 @@
-import React from 'react'
-import ClassCard from './ClassCard'
+import React from 'react';
+import { AdvancedClass, Archetype } from '../App';
+import ClassCard from './ClassCard';
 
 interface ArchetypeProps {
-  archetype: string[];
+  archetype: Archetype;
 }
 
 const ArchetypeCard = (props: ArchetypeProps): JSX.Element => {
-  return(
+  return (
     <>
       <div>
-        {props.archetype.map((job, index) => (
-          <ClassCard currentClass={job} key={index} />
+        {props.archetype.name}
+        {props.archetype.advanced.map((advancedClass:AdvancedClass, index: number) => (
+          <ClassCard currentClass={advancedClass} key={index} />
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ArchetypeCard
+export default ArchetypeCard;

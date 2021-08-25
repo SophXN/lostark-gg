@@ -8,11 +8,10 @@ import { Button } from '@material-ui/core'
 import { Menu } from '@material-ui/core'
 import { MenuItem } from '@material-ui/core'
 import { Menu as MenuIcon } from '@material-ui/icons'
+import { Archetypes } from '../App'
 
 type AppProps = {
-  classes: {
-    [archetypeName: string]: string[];
-  }
+  classes: Archetypes
 }
 
 const NavBar = (props: AppProps): JSX.Element => {

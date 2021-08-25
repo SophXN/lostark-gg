@@ -1,22 +1,15 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import NavBar from './components/NavBar'
-import ClassCard from './components/ClassCard'
 import './App.css'
+import classData from '../classData.json'
+import { string } from 'prop-types'
 
-interface archetypes {
-  [archetypeName: string]: string[];
-}
+export interface AdvancedClass {name: string, art: string}
+export interface Archetype { name: string, advanced: Array<AdvancedClass> }
+export type Archetypes = Array<Archetype>
 
-type archetypesStatic = Readonly<archetypes>
-
-let classes: archetypesStatic = {
-  warrior: ['Berserker', 'Paladin', 'Gunlancer'],
-  martialArtist: ['Striker', 'Wardancer', 'Scrapper', 'Soulfist'],
-  gunner: ['Gunslinger', 'Artillerist', 'Deadeye', 'Sharpshooter'],
-  mage: ['Bard', 'Summoner'],
-  assassin: ['Shadowhunter', 'Deathblade']
-}
+let classes: Archetypes = classData
 
 const App = (): JSX.Element => {
 
