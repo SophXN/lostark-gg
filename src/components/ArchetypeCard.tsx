@@ -4,6 +4,7 @@ import ClassCard from './ClassCard';
 
 interface ArchetypeProps {
   archetype: Archetype;
+  className?: string;
 }
 
 const ArchetypeCard = (props: ArchetypeProps): JSX.Element => {

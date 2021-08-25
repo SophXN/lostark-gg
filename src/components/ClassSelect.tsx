@@ -12,7 +12,7 @@ const ClassSelect = (props: ArchetypeProps): JSX.Element => {
       Classes
       {
         props.archetypes.map((classObj, index): JSX.Element => (
-          <ArchetypeCard archetype={classObj} key={index} />
+          <ArchetypeCard className="archCard" archetype={classObj} key={index} />
         ))
       }
     </>

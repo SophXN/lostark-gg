@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import './App.css'
 import classData from '../classData.json'
-import { string } from 'prop-types'
 
+export type BaseProps = {className?: string}
 export interface AdvancedClass {name: string, art: string}
 export interface Archetype { name: string, advanced: Array<AdvancedClass> }
 export type Archetypes = Array<Archetype>
