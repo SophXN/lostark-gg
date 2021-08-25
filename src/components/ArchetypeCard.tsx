@@ -1,16 +1,16 @@
 import React from 'react'
-import ClassCard from './ClassSelect'
+import ClassCard from './ClassCard'
 
-type ArchetypeProps = {
+interface ArchetypeProps {
   archetype: string[];
 }
 
-const ArchetypeCard = ({ archetype }: ArchetypeProps): JSX.Element => {
+const ArchetypeCard = (props: ArchetypeProps): JSX.Element => {
   return(
     <>
       <div>
-        {archetype.map((job) => (
-          <ClassCard currentClass={job} />
+        {props.archetype.map((job, index) => (
+          <ClassCard currentClass={job} key={index} />
         ))}
       </div>
     </>

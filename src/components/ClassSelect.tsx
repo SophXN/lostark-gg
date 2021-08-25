@@ -1,9 +1,14 @@
 import React from 'react'
+import ArchetypeCard from './ArchetypeCard'
 
-const ClassSelect = (): JSX.Element => {
+interface ArchetypeProps {
+  currentArchetype: string[];
+}
+
+const ClassSelect = ({currentArchetype}: ArchetypeProps): JSX.Element => {
   return(
     <>
-      <h2>Nice Build</h2>
+      <ArchetypeCard archetype={currentArchetype} />
     </>
   )
 }
