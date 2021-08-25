@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#menu-title {
+  padding-left: .2em;
+  padding-right: .4em;
+}
+
+
