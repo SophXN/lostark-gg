@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import NavBar from './components/NavBar'
-import ClassSelect from './components/ClassSelect'
+import ClassCard from './components/ClassCard'
 import './App.css'
 
 interface archetypes {
@@ -29,11 +29,6 @@ const App = (): JSX.Element => {
       <div className="App">
         <NavBar classes={classes} />
       </div>
-      <Switch>
-        <Route path="/class-select">
-          <h2>Nice build</h2>
-        </Route>
-      </Switch>
     </Router>
   )
 }

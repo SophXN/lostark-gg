@@ -40,3 +40,13 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+#menu-title {
+  padding-left: .2em;
+  padding-right: .4em;
+}
+
+a {
+  color:inherit;
+  text-decoration: none;
+}

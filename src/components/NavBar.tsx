@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link, useRouteMatch } from 'react-router-dom'
+import ClassSelect from './ClassSelect'
 import { AppBar } from '@material-ui/core'
 import { Toolbar } from '@material-ui/core'
 import { IconButton } from '@material-ui/core'
-import { Typography } from '@material-ui/core'
 import { Button } from '@material-ui/core'
 import { Menu } from '@material-ui/core'
 import { MenuItem } from '@material-ui/core'
@@ -37,9 +37,9 @@ const NavBar = (props: AppProps): JSX.Element => {
             <IconButton edge="start" color="inherit" aria-label="menu">
               <MenuIcon />
             </IconButton>
-            <Typography variant="h4" id="menu-title">
-              trision.gg
-            </Typography>
+            <Button id="menu-title">
+              <Link to="/">trision.gg</Link>
+            </Button>
             <Button color="inherit" aria-label="builds" onClick={handleClick} >
               Builds
             </Button>
@@ -70,6 +70,14 @@ const NavBar = (props: AppProps): JSX.Element => {
             </Button>
           </Toolbar>
         </AppBar>
+        <Switch>
+          <Route exact path="/">
+            <p>Some news</p>
+          </Route>
+          <Route exact path="/class-select">
+            <ClassSelect />
+          </Route>
+        </Switch>
       </Router>
     </>
   )
