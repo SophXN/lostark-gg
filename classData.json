@@ -50,28 +50,77 @@
       },
       {
         "name": "Deadeye",
-        "art": "https://images.ctfassets.net/umhrp0op95v1/6xNNAkPej3xfmYxp1otSfc/f5f3d6ddd029a566a6682aec96583b98/LA_ADVANCED_CLASS_INDEX_DEADEYE.jpg",
-        "skills": [
-          "DM-42",
-          "Slash",
-          "Rapid Shot",
-          "Sharpshooter",
-          "Snipe",
-          "Atomic Arrow",
-          "Arrow Shower",
-          "Arrow Tsunami",
-          "Smoke Arrow",
-          "Move Slash",
-          "Salvo",
-          "Tenacious Pursuit",
-          "Charging Shot",
-          "Claymore Mine",
-          "Dodge Shot"
-        ]
+        "art": "https://images.ctfassets.net/umhrp0op95v1/6xNNAkPej3xfmYxp1otSfc/f5f3d6ddd029a566a6682aec96583b98/LA_ADVANCED_CLASS_INDEX_DEADEYE.jpg"
       },
       {
         "name": "Sharpshooter",
-        "art": "https://images.ctfassets.net/umhrp0op95v1/2AvY3YNjNhSCp58Edqnl27/801380f602fee888e8a253aebe82586e/LA_ADVANCED_CLASS_INDEX_SHARPSHOOTER.jpg"
+        "art": "https://images.ctfassets.net/umhrp0op95v1/2AvY3YNjNhSCp58Edqnl27/801380f602fee888e8a253aebe82586e/LA_ADVANCED_CLASS_INDEX_SHARPSHOOTER.jpg",
+        "skills": [
+          {
+            "name": "DM-42",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_11.png"
+          },
+          {
+            "name": "Slash",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_12.png"
+          },
+          {
+            "name": "Rapid Shot",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_1.png"
+          },
+          {
+            "name": "Blade Storm",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_14.png"
+          },
+          {
+            "name": "Sharpshooter",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_10.png"
+          },
+          {
+            "name": "Snipe",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_18.png"
+          },
+          {
+            "name": "Atomic Arrow",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_3.png"
+          },
+          {
+            "name": "Arrow Shower",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_7.png"
+          },
+          {
+            "name": "Arrow Tsunami",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_6.png"
+          },
+          {
+            "name": "Smoke Arrow",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_5.png"
+          },
+          {
+            "name": "Move Slash",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_13.png"
+          },
+          {
+            "name": "Salvo",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_2.png"
+          },
+          {
+            "name": "Tenacious Pursuit",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_17.png"
+          },
+          {
+            "name": "Charging Shot",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_8.png"
+          },
+          {
+            "name": "Claymore Mine",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_15.png"
+          },
+          {
+            "name": "Dodge Shot",
+            "icon": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/HE_Skill/HE_Skill_01_9.png"
+          }
+        ]
       }
     ]
   },

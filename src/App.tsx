@@ -7,10 +7,14 @@ import './App.css';
 import ClassSelect from './components/ClassSelect';
 
 export type BaseProps = { className?: string };
+export interface Skills {
+  name: string;
+  icon: string;
+}
 export interface AdvancedClass {
   name: string;
   art: string;
-  skills?: Array<string>;
+  skills?: Array<Skills>;
 }
 export interface Archetype {
   name: string;
