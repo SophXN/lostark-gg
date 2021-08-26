@@ -1,5 +1,6 @@
 import React, { MouseEvent, useState } from 'react';
 import { AdvancedClass, Skills } from '../App';
+import BuildPalette from './BuildPalette';
 import SkillThumbs from './SkillThumbs';
 
 interface BuilderProps {
@@ -47,21 +48,11 @@ const SkillBuilder = (props: BuilderProps): JSX.Element => {
       <h3>{props.currentClass.name}</h3>
       <p>Available Skills</p>
       {availableSkills?.map((skill, index) => (
-        <SkillThumbs
-          skill={skill}
-          key={index}
-          selectSkill={selectSkill}
-          deselectSkill={deselectSkill}
-        />
+        <SkillThumbs skill={skill} key={index} selectSkill={selectSkill} />
       ))}
       <p>Your Build</p>
       {chosenSkills?.map((skill, index) => (
-        <SkillThumbs
-          skill={skill}
-          key={index}
-          selectSkill={selectSkill}
-          deselectSkill={deselectSkill}
-        />
+        <BuildPalette skill={skill} key={index} deselectSkill={deselectSkill} />
       ))}
     </>
   );

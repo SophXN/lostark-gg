@@ -6,7 +6,7 @@ interface BuildThumbProps {
   deselectSkill: (e: MouseEvent<HTMLImageElement>) => void;
 }
 
-const SkillThumbs = (props: BuildThumbProps): JSX.Element => {
+const BuildPalette = (props: BuildThumbProps): JSX.Element => {
   return(
     <>
       <img src={props.skill.icon} alt={props.skill.name} onClick={(e) => props.deselectSkill(e)}/>
@@ -14,4 +14,4 @@ const SkillThumbs = (props: BuildThumbProps): JSX.Element => {
   )
 }
 
-export default SkillThumbs
+export default BuildPalette
