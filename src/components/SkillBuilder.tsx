@@ -8,12 +8,13 @@ interface BuilderProps {
 
 const SkillBuilder = (props: BuilderProps): JSX.Element => {
   const [availableSkills, updateAvailable] = useState(props.currentClass.skills?.slice())
-  const [chosenSkills, updateChosen] = useState([])
+  const [chosenSkills, updateChosen] = useState<Array<any>>([])
 
   const selectSkill = (e: MouseEvent<HTMLImageElement>):void => {
     const target = e.target as HTMLImageElement;
     const selection = target.getAttribute("alt")
     updateAvailable(availableSkills?.filter(skill => skill.name !== selection))
+    updateChosen([...chosenSkills, props.currentClass.skills?.filter(skill => skill.name === selection)])
   }
 
   return (
