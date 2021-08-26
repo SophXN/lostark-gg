@@ -1,5 +1,6 @@
-import React, { MouseEvent } from 'react'
-import { AdvancedClass, Skills } from '../App'
+import React, { MouseEvent } from 'react';
+import { AdvancedClass, Skills } from '../App';
+import { Tooltip } from '@material-ui/core';
 
 interface BuildThumbProps {
   skill: Skills;
@@ -7,11 +8,17 @@ interface BuildThumbProps {
 }
 
 const BuildPalette = (props: BuildThumbProps): JSX.Element => {
-  return(
+  return (
     <>
-      <img src={props.skill.icon} alt={props.skill.name} onClick={(e) => props.deselectSkill(e)}/>
+      <Tooltip title={`${props.skill.name}`}>
+        <img
+          src={props.skill.icon}
+          alt={props.skill.name}
+          onClick={(e) => props.deselectSkill(e)}
+        />
+      </Tooltip>
     </>
-  )
-}
+  );
+};
 
-export default BuildPalette
+export default BuildPalette;
