@@ -45,7 +45,7 @@ const NavBar = (props: NavProps): JSX.Element => {
           <IconButton edge="start" color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Button id="menu-title">
+          <Button id="menu-title" aria-label="home" >
             <Link to="/">trision.gg</Link>
           </Button>
           <Button color="inherit" aria-label="builds" onClick={handleClick}>
@@ -67,13 +67,13 @@ const NavBar = (props: NavProps): JSX.Element => {
           <Button color="inherit" aria-label="meta-builds">
             Meta
           </Button>
-          <Button color="inherit" aria-label="meta-builds">
+          <Button color="inherit" aria-label="skill-list">
             Skills
           </Button>
-          <Button color="inherit" aria-label="meta-builds">
+          <Button color="inherit" aria-label="engravings">
             Engravings
           </Button>
-          <Button color="inherit" aria-label="meta-builds">
+          <Button color="inherit" aria-label="statistics">
             Statistics
           </Button>
         </Toolbar>
