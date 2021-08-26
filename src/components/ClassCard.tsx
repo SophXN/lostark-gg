@@ -17,28 +17,27 @@ const useStyles = makeStyles({
 });
 
 interface ClassProps {
-  currentClass: AdvancedClass
+  currentClass: AdvancedClass;
+  className?: string;
 }
 
 const ClassCard = (props: ClassProps): JSX.Element => {
   const classes = useStyles();
   return (
-    <>
-      <Card className={classes.root}>
-        <CardActionArea>
-          <CardMedia
-            className={classes.media}
-            image={`${props.currentClass.art}`}
-            title={`${props.currentClass.name}`}
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              {props.currentClass.name}
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-      </Card>
-    </>
+    <Card className={`${classes.root}`} onClick={() => {}}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={`${props.currentClass.art}`}
+          title={`${props.currentClass.name}`}
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            {props.currentClass.name}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
   );
 };
 

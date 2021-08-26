@@ -9,7 +9,6 @@ interface ArchetypeProps {
 const ClassSelect = (props: ArchetypeProps): JSX.Element => {
   return (
     <>
-      Classes
       {
         props.archetypes.map((classObj, index): JSX.Element => (
           <ArchetypeCard className="archCard" archetype={classObj} key={index} />

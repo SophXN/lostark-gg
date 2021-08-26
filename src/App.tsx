@@ -5,7 +5,7 @@ import './App.css'
 import classData from '../classData.json'
 
 export type BaseProps = {className?: string}
-export interface AdvancedClass {name: string, art: string}
+export interface AdvancedClass {name: string, art: string, skills?:Array<string>}
 export interface Archetype { name: string, advanced: Array<AdvancedClass> }
 export type Archetypes = Array<Archetype>
 

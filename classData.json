@@ -50,7 +50,24 @@
       },
       {
         "name": "Deadeye",
-        "art": "https://images.ctfassets.net/umhrp0op95v1/6xNNAkPej3xfmYxp1otSfc/f5f3d6ddd029a566a6682aec96583b98/LA_ADVANCED_CLASS_INDEX_DEADEYE.jpg"
+        "art": "https://images.ctfassets.net/umhrp0op95v1/6xNNAkPej3xfmYxp1otSfc/f5f3d6ddd029a566a6682aec96583b98/LA_ADVANCED_CLASS_INDEX_DEADEYE.jpg",
+        "skills": [
+          "DM-42",
+          "Slash",
+          "Rapid Shot",
+          "Sharpshooter",
+          "Snipe",
+          "Atomic Arrow",
+          "Arrow Shower",
+          "Arrow Tsunami",
+          "Smoke Arrow",
+          "Move Slash",
+          "Salvo",
+          "Tenacious Pursuit",
+          "Charging Shot",
+          "Claymore Mine",
+          "Dodge Shot"
+        ]
       },
       {
         "name": "Sharpshooter",
